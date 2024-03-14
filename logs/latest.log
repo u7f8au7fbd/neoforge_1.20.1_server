@@ -1,77 +1,59 @@
-[14Mar2024 19:03:50.532] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.1.101, --fml.fmlVersion, 47.2.2, --fml.mcVersion, 1.20.1, --fml.mcpVersion, 20230612.114412]
-[14Mar2024 19:03:50.537] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[14Mar2024 19:03:50.698] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[14Mar2024 19:03:50.754] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Server/neoforge_1.20.1_server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2368!/ Service=ModLauncher Env=SERVER
-[14Mar2024 19:03:51.107] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Server\neoforge_1.20.1_server\libraries\net\neoforged\fancymodloader\core\47.2.2\core-47.2.2.jar is missing mods.toml file
-[14Mar2024 19:03:51.112] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Server\neoforge_1.20.1_server\libraries\net\neoforged\fancymodloader\language-java\47.2.2\language-java-47.2.2.jar is missing mods.toml file
-[14Mar2024 19:03:51.116] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Server\neoforge_1.20.1_server\libraries\net\neoforged\fancymodloader\language-lowcode\47.2.2\language-lowcode-47.2.2.jar is missing mods.toml file
-[14Mar2024 19:03:51.121] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Server\neoforge_1.20.1_server\libraries\net\neoforged\fancymodloader\language-minecraft\47.2.2\language-minecraft-47.2.2.jar is missing mods.toml file
-[14Mar2024 19:03:51.136] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "core-47.2.2.jar" of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a3e3e8b
-[14Mar2024 19:03:51.137] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-java-47.2.2.jar" of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a3e3e8b
-[14Mar2024 19:03:51.138] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-lowcode-47.2.2.jar" of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a3e3e8b
-[14Mar2024 19:03:51.138] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-minecraft-47.2.2.jar" of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a3e3e8b
-[14Mar2024 19:03:51.139] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.20.1-20230612.114412-srg.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a3e3e8b
-[14Mar2024 19:03:51.139] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "forge-1.20.1-47.1.101-universal.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@4a3e3e8b
-[14Mar2024 19:03:51.145] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "events-47.2.2.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.BuiltinGameLibraryLocator@452e26d0
-[14Mar2024 19:03:51.207] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[14Mar2024 19:03:53.342] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[14Mar2024 19:04:06.435] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: NeoForge mod loading, version 47.1.101, for MC 1.20.1 with MCP 20230612.114412
-[14Mar2024 19:04:06.439] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: NeoForge v47.1.101 Initialized
-[14Mar2024 19:04:09.015] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14Mar2024 19:04:10.789] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Server/neoforge_1.20.1_server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
-[14Mar2024 19:04:10.791] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Server/neoforge_1.20.1_server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
-[14Mar2024 19:04:14.480] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[14Mar2024 19:04:14.739] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[14Mar2024 19:04:18.836] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[14Mar2024 19:04:18.839] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14Mar2024 19:04:18.849] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14Mar2024 19:04:18.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14Mar2024 19:04:19.030] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[14Mar2024 19:04:19.113] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[14Mar2024 19:04:19.722] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14Mar2024 19:04:25.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14Mar2024 19:04:25.229] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2024 19:04:25.664] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2024 19:04:26.156] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2024 19:04:26.673] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2024 19:04:27.651] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:27.654] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:28.158] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:28.739] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:29.221] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:30.057] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:30.212] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:30.652] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:31.231] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:31.748] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:32.162] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:32.662] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:33.159] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[14Mar2024 19:04:33.654] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[14Mar2024 19:04:34.172] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 87%
-[14Mar2024 19:04:34.771] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[14Mar2024 19:04:35.172] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[14Mar2024 19:04:35.682] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[14Mar2024 19:04:36.192] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
-[14Mar2024 19:04:36.665] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[14Mar2024 19:04:37.178] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
-[14Mar2024 19:04:37.435] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12283 ms
-[14Mar2024 19:04:37.437] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (17.825s)! For help, type "help"
-[14Mar2024 19:04:37.497] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[14Mar2024 19:05:10.753] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player u7f8au7fbd is 9c9cbb72-bc85-461f-8891-02853cac6e90
-[14Mar2024 19:05:12.417] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: u7f8au7fbd[/[2001:ce8:126:6e4c:89b8:71a6:ea30:a692]:54435] logged in with entity id 4 at (-5.843572995960201, 68.0, 41.826452023537605)
-[14Mar2024 19:05:12.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: u7f8au7fbd joined the game
-[14Mar2024 19:05:26.726] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[14Mar2024 19:05:52.962] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: u7f8au7fbd lost connection: Disconnected
-[14Mar2024 19:05:52.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: u7f8au7fbd left the game
-[14Mar2024 19:05:57.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[14Mar2024 19:05:57.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[14Mar2024 19:05:57.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[14Mar2024 19:05:57.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[14Mar2024 19:05:59.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14Mar2024 19:05:59.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14Mar2024 19:05:59.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14Mar2024 19:05:59.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14Mar2024 19:05:59.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14Mar2024 19:05:59.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14Mar2024 19:05:59.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14Mar2024 19:10:25.691] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.1.101, --fml.fmlVersion, 47.2.2, --fml.mcVersion, 1.20.1, --fml.mcpVersion, 20230612.114412]
+[14Mar2024 19:10:25.694] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[14Mar2024 19:10:25.779] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[14Mar2024 19:10:25.809] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Server/neoforge_1.20.1_server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2368!/ Service=ModLauncher Env=SERVER
+[14Mar2024 19:10:25.948] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Server\neoforge_1.20.1_server\libraries\net\neoforged\fancymodloader\core\47.2.2\core-47.2.2.jar is missing mods.toml file
+[14Mar2024 19:10:25.989] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Server\neoforge_1.20.1_server\libraries\net\neoforged\fancymodloader\language-java\47.2.2\language-java-47.2.2.jar is missing mods.toml file
+[14Mar2024 19:10:26.014] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Server\neoforge_1.20.1_server\libraries\net\neoforged\fancymodloader\language-lowcode\47.2.2\language-lowcode-47.2.2.jar is missing mods.toml file
+[14Mar2024 19:10:26.031] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Server\neoforge_1.20.1_server\libraries\net\neoforged\fancymodloader\language-minecraft\47.2.2\language-minecraft-47.2.2.jar is missing mods.toml file
+[14Mar2024 19:10:26.051] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "core-47.2.2.jar" of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@71104a4
+[14Mar2024 19:10:26.051] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-java-47.2.2.jar" of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@71104a4
+[14Mar2024 19:10:26.051] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-lowcode-47.2.2.jar" of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@71104a4
+[14Mar2024 19:10:26.052] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "language-minecraft-47.2.2.jar" of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@71104a4
+[14Mar2024 19:10:26.052] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.20.1-20230612.114412-srg.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@71104a4
+[14Mar2024 19:10:26.052] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "forge-1.20.1-47.1.101-universal.jar" of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@71104a4
+[14Mar2024 19:10:26.095] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "events-47.2.2.jar" of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.BuiltinGameLibraryLocator@790174f2
+[14Mar2024 19:10:26.113] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[14Mar2024 19:10:26.788] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[14Mar2024 19:10:30.639] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: NeoForge mod loading, version 47.1.101, for MC 1.20.1 with MCP 20230612.114412
+[14Mar2024 19:10:30.640] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: NeoForge v47.1.101 Initialized
+[14Mar2024 19:10:31.558] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14Mar2024 19:10:31.857] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Server/neoforge_1.20.1_server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/assets/.mcassetsroot' uses unexpected schema
+[14Mar2024 19:10:31.857] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Server/neoforge_1.20.1_server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23103!/data/.mcassetsroot' uses unexpected schema
+[14Mar2024 19:10:32.712] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[14Mar2024 19:10:32.800] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[14Mar2024 19:10:33.361] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[14Mar2024 19:10:33.361] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Mar2024 19:10:33.361] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Mar2024 19:10:33.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Mar2024 19:10:33.402] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Mar2024 19:10:33.412] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[14Mar2024 19:10:33.523] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Mar2024 19:10:33.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Mar2024 19:10:35.160] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Mar2024 19:10:35.186] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Mar2024 19:10:35.187] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Mar2024 19:10:35.491] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
+[14Mar2024 19:10:35.640] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1650 ms
+[14Mar2024 19:10:35.641] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.142s)! For help, type "help"
+[14Mar2024 19:10:35.655] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[14Mar2024 19:11:58.458] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player natuyade is 66567bfd-1082-476f-b001-33ffe90c222a
+[14Mar2024 19:11:59.676] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: natuyade[/127.0.0.1:63034] logged in with entity id 162 at (-7.5, 66.0, 33.5)
+[14Mar2024 19:11:59.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natuyade joined the game
+[14Mar2024 19:12:55.060] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: natuyade lost connection: Disconnected
+[14Mar2024 19:12:55.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: natuyade left the game
+[14Mar2024 19:13:00.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving the game (this may take a moment!)
+[14Mar2024 19:13:00.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saved the game
+[14Mar2024 19:13:06.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[14Mar2024 19:13:06.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: quit<--[HERE]
+[14Mar2024 19:13:09.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[14Mar2024 19:13:09.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[14Mar2024 19:13:09.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[14Mar2024 19:13:09.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[14Mar2024 19:13:10.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14Mar2024 19:13:10.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14Mar2024 19:13:10.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14Mar2024 19:13:10.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14Mar2024 19:13:10.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14Mar2024 19:13:10.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14Mar2024 19:13:10.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
